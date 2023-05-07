@@ -1,0 +1,288 @@
+body {
+    background-color: #000000;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+nav {
+    display: flex;
+    /* background-image: url(nav\ bg2.jpg); */
+    /* height: 35rem;
+    width: auto; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1rem 2rem 3rem 2rem;
+    
+}
+
+
+.quotes {
+    color:#FEA636;
+    width: 45rem;
+    margin: 5rem 5rem 5rem 15rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 3rem;
+    text-align: justify;
+    text-align: center;
+}
+
+.quotes p {
+    font-size: smaller;
+    margin-left: 25rem;
+    color: white;
+}
+
+nav div ul {
+    display:flex;
+    background-color:transparent;
+    position: fixed;
+}
+
+nav div ul a {
+    list-style: none;
+    padding: 20px;
+    margin-left: 60px;
+    word-spacing: 5px;
+    color: aliceblue;
+    text-decoration: none;
+    
+    
+}
+nav div ul a:hover{
+    font-size: 1.5rem;
+   
+
+}
+nav img{
+    width: 80rem;
+}
+
+.container {
+    display: inline-flex;
+    flex-direction: row;
+    max-width: 96%;
+}
+
+.about {
+
+    width: fit-content;
+    margin-left: 6rem;
+    align-items: center;
+    text-align: center;
+
+
+
+}
+
+.st {
+    font-style: normal;
+    color: white;
+    font-size: x-large;
+    width: fit-content;
+}
+
+.name {
+    color: orangered;
+    font-size: calc(3rem);
+    width: fit-content;
+    padding: 0rem;
+}
+
+.span {
+    font-size: x-large;
+    color: white;
+    /* width: fit-content; */
+  word-spacing: 5px;
+  font-style: oblique;  
+
+}
+
+.intro {
+    color: white;
+    text-align: start;
+    margin-top: 1rem;
+    width: 95%;
+    word-spacing: 3px;
+    font-size: x-large;
+    font-style: italic;
+}
+.top-btn{
+    background-color: orangered;
+    color: white;
+    border-radius: 2px;
+    width: 7rem ;
+    height: 2rem;
+    border-color: black;
+    text-decoration: none;
+    display: block;
+    border-radius: 8px;
+    padding-top: 1rem;
+}
+.top-btn:hover{
+    background-color: white;
+    color: black;
+}
+.skillportion{
+    margin: 3rem;
+}
+.skills1{
+    display: flex;
+}
+.sk{
+    text-align: center;
+    color: white;
+}
+.skillportion h1{
+    text-align: center;
+    color: white;
+}
+.left{
+    width: 24rem;
+    border: 2px solid;
+    border-color: white;
+    border-radius: 8px;
+    height: 25rem;
+    background-color: cadetblue;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    
+}
+.left img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 10px;
+    margin-left: 11rem;
+    margin-top: -2rem;
+ 
+}
+.left h2{
+    font: bold;
+    color: white;
+    text-align: center;
+    margin-top: 0rem;
+    margin-left: 1rem;
+    text-decoration: underline;
+}
+.left p{
+    color: white;
+    text-align: centers;
+    font-size: x-large;
+    margin: 2rem;
+}
+
+
+.img {
+
+    padding-left: 12rem;
+
+}
+
+.img img {
+    height: 38rem;
+    width: 40rem;
+
+}
+
+.img2 {
+    padding-left: 4rem;
+}
+
+.img2 img {
+    height: 38rem;
+    width: 40rem;
+}
+
+.head {
+    color: white;
+    text-align: center;
+    margin-top: 7rem;
+    font-size: calc(5rem);
+    text-decoration: underline;
+}
+
+.h2 {
+    color: white;
+    margin: 3rem;
+    font-size: calc(3rem);
+}
+.flex{
+    display: flex;
+    margin-left: 2rem;
+}
+
+.illustration img {
+    width: 35rem;
+    height: 30rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3rem;
+}
+.amazing2{
+    
+    margin: 0;
+}
+.illustration3 img{
+    margin-left: 20rem;
+}
+.illustration4 img{
+    width: 55rem;
+    height: 50rem;
+}
+.illustration5 img{
+    width: 45rem;
+    height: 40rem;
+    margin-left: 35rem;
+}
+.h2 {
+    color: white;
+    margin: 3rem;
+    font-size: calc(3rem);
+}
+.digital img {
+    width: 35rem;
+    height: 30rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3rem;
+}
+.print{
+    display: flex;
+}
+.h21{
+    text-align: center;
+    color: white;
+    font-size: calc(3rem);
+    text-decoration: underline;
+}
+.contact{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.social img{
+    width: 3rem;
+    height: auto;
+    margin: 2rem;
+    border-radius: 10px;
+
+}
+.last{
+    height: 2rem;
+    text-align: center;
+    color: white;
+}
+.last p{
+    height: 1rem;
+}
+.last i{
+    height: 1rem;
+}
+.hr{
+    margin-top: 4rem;
+}
